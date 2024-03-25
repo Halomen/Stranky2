@@ -1,0 +1,97 @@
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+} 
+
+header {
+  height: 50px;
+  background-color: gray;
+}
+
+/* Navigation */
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+  width: 145px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+nav ul {
+  width: 1020px;
+  margin: 0px auto;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #390b4e;
+}
+
+nav {
+  background-color: grey;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Main */
+
+.Firstphoto {
+  background-color: black;
+}
+
+.Firstphoto img {
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  top: 100px;
+}
+main h2 {
+  text-align: center;
+  margin-top: 120px;
+}
+main h2 span {
+  font-size: 60px;
+}
+.section1 img {
+  width: 400px;
+  display: block;
+  margin: 0px auto;
+  transform: rotate(15deg);
+}
+.section2 h2 {
+  font-size: 60px;
+  margin-top: 0px;
+}
+footer {
+  background: #f5f5f7;
+  color: #86868b;
+  text-align: center;
+}
+main h2 {
+  font-size: 30px;
+}
+.Firstphoto1 {
+  background-color: black;
+}
+.Firstphoto1 img {
+  width: 300px;
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  top: 200px;
+  transform: rotate(15deg);
+}
+.section22 h2 {
+  font-size: 60px;
+  margin-top: 200px;
+}
